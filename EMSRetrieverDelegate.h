@@ -10,6 +10,8 @@
 
 @protocol EMSRetrieverDelegate <NSObject>
 
+@optional
+
 - (void) finishedConferences:(NSArray *)conferences;
 
 @end
